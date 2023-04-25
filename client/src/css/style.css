@@ -5,7 +5,7 @@
   --whitesmoke: #f5f5f5;
   --dark: #222;
   --monoaki: #272822;
-  --navbar-height: 50px;
+  --navbar-height: 75px;
 }
 
 body {
@@ -22,7 +22,9 @@ h1 {
 
 #navbar {
   height: var(--navbar-height);
-  background-color: var(--primary);
+  background-color: linear-gradient(
+    #31a9e1, #ececec, #f5f5f5, #222, #272822
+  );
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
   display: flex;
   align-items: center;
