@@ -2,7 +2,7 @@
 
   ![License](https://img.shields.io/badge/license-MIT-blue)
 
-  ## Description
+## Description
 
 The Text Tron text editor is a simple text editor application that can function both online and offline. This application implements methods for getting and storing data to an `IndexedDB` database. For offline use, Text Tron can be downloaded to your desktop as an application. The integrated service worker and Cache API's ensure that this application will remain fully functional even when offline.
 ___
@@ -35,7 +35,8 @@ ___
 
 ## Installation
 
-* Open Heroku deployed application : (TODO: add link here)
+* Open Heroku deployed application : https://peaceful-citadel-63619.herokuapp.com/
+
 * Go to the link and hit the "install" button to install the app locally.
 
 For repo clone or download:
@@ -54,7 +55,9 @@ ___
 
 ## Usage
 
-To use Text TRON, please visit the deployed Heroku link: (TODO: add link here)
+To use Text TRON, please visit the deployed Heroku link: https://peaceful-citadel-63619.herokuapp.com/
+
+Or click 👉 [Text TRON](https://peaceful-citadel-63619.herokuapp.com/)
 ___
 
 ## Screenshots
