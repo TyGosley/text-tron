@@ -33,6 +33,10 @@ export const getDb = async () => {
     ? console.log('got content from database', result.value)
     : console.log('no content found in database');
   return result?.value;
+  // const content = await store.getAll();
+  // await tx.done;
+  // console.log('got content from database');
+  // return content;
 };
 
 initdb();
