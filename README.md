@@ -48,7 +48,7 @@ For repo clone or download:
 
 * Run `npm run dev` and `npm run start` in terminal to start.
 
-* Then go to http://localhost:3000/ to run this application on your local machine.
+* Then go to http://localhost:8080/ to run this application on your local machine.
 
 ___
 
