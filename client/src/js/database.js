@@ -27,10 +27,12 @@ export const getDb = async () => {
   const db = await openDB('jate', 1);
   const tx = db.transaction('jate', 'readonly');
   const store = tx.objectStore('jate');
-  const content = await store.getAll();
-  await tx.done;
-  console.log('got content from database');
-  return content;
+  const request = store.getAll(1);
+  const result = await request;
+  result 
+    ? console.log('got content from database', result.value)
+    : console.log('no content found in database');
+  return result?.value;
 };
 
 initdb();
